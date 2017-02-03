@@ -1,0 +1,39 @@
+{
+  "name": "eslint-plugin-retext",
+  "version": "0.0.0",
+  "description": "lint content using eslint",
+  "keywords": [
+    "eslint",
+    "eslintplugin",
+    "eslint-plugin"
+  ],
+  "author": "Brian",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "mocha tests --recursive"
+  },
+  "dependencies": {
+    "espree": "^3.4.0",
+    "fs": "0.0.1-security",
+    "remark-lint": "^5.4.0",
+    "remark-parse": "^2.2.0",
+    "remark-retext": "^2.0.0",
+    "remark-stringify": "^2.3.0",
+    "requireindex": "~1.1.0",
+    "retext": "^4.0.0",
+    "retext-english": "^2.0.0",
+    "retext-equality": "^2.5.0",
+    "retext-simplify": "^3.0.0",
+    "unified": "^5.1.0",
+    "unist-util-visit": "^1.1.1",
+    "vfile-reporter": "^3.0.0"
+  },
+  "devDependencies": {
+    "eslint": "~3.9.1",
+    "mocha": "^3.1.2"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "license": "ISC"
+}
